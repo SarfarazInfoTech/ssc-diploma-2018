@@ -224,7 +224,7 @@ li {
   text-align: start;
   padding-left: 23px;
 }
-.r{
+.r {
   /* background-origin: content-box; */
   /* background-color: tomato !important; */
 }
@@ -286,4 +286,30 @@ li {
   padding-left: 0ch !important;
   padding-top: 23px;
   height: 16px !important;
+}
+
+/* Mobile v-msg */
+@media (max-width: 1024px) {
+  body {
+    padding-top: 20%;
+    background-color: white;
+    position: absolute;
+  }
+  .container {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .msg {
+    display: none;
+  }
+}
+.msg img {
+  background: no-repeat;
+}
+.msg h1 {
+  position: relative;
+  color: blue;
+  font-family: monospace;
+  text-align: center;
 }
